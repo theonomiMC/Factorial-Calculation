@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Factorial Calculator</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="card-header bg-dark text-muted">
+    <h1 id="header">Mathematical beauty</h2>
+  </div>
+  <main class="container">
+    <div>
+      <h2 class="text-dark" id="title">Factorial Calculator</h2>
+      <div class="form-row align-items-center">
+
+        <div class="col-sm-8 my-1">
+          <!--       <label class="text-dark">Factorial Calculator</label> -->
+          <input type="text" id="factorial" class="form-control" placeholder="0" required>
+        </div>
+        <div class="col-auto my-1">
+          <button id="button" class="btn btn-dark" onClick="calc()">Calculate</button>
+        </div>
+      </div>
+      <span id="result" class="text-secondary border-bottom"></span>
+    </div>
+  </main>
+  <!-- Footer -->
+  <footer class="page-footer font-small stylish-color pt-4">
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020
+      <a href="https://github.com/theonomiMC" id="author">By Natalia Bakakuri</a>
+    </div>
+
+  </footer>
+  <script src="./script.js"></script>
+</body>
+
+</html>
